@@ -1,5 +1,6 @@
 # PyDataFUK190416
 PyData.Fukuoka Meetup #3 - LINE Fukuoka会場
+https://pydatafukuoka.connpass.com/event/125566/
 
 # ＬＴ資料
 福岡県の交通事故を見える化してみた（地図編）.pdf
