@@ -1,5 +1,6 @@
 # PyDataFUK190416
 PyData.Fukuoka Meetup #3 - LINE Fukuoka会場
+
 https://pydatafukuoka.connpass.com/event/125566/
 
 # ＬＴ資料
