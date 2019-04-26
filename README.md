@@ -17,3 +17,7 @@ create_map.py（上と同じ処理）JupyterNotebookが使えない方はこち�
 plot_map_tooltip10m.html　（出力）危険な交差点<BR>
 plot_map_tooltip50m.html　（出力）危険なエリア<BR>
 plot_map_MDP.html　（出力）最も危険なポイント<BR>
+
+※make_near_list.py は、約７２千個のデータを総当り（２６億通り）で計算するので、<BR>
+　しばらく時間を要します。<BR>
+ 地図に交通事故の発生場所をプロット.ipynb から処理することをお薦めします。<BR>
