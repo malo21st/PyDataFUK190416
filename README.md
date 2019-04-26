@@ -12,6 +12,7 @@ make_near_list.py（処理）50m以内で発生した事故の抽出<BR>
 near_list_50m.pkl（データ）a:id, b:id, distance:距離<BR>
 　　　　↓<BR>
 地図に交通事故の発生場所をプロット.ipynb（処理）<BR>
+create_map.py（上と同じ処理）JupyterNotebookが使えない方はこちら<BR>
 　　　　↓<BR>
 plot_map_tooltip10m.html　（出力）危険な交差点<BR>
 plot_map_tooltip50m.html　（出力）危険なエリア<BR>
