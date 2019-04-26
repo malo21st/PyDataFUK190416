@@ -1,8 +1,18 @@
 # PyDataFUK190416
 PyData.Fukuoka Meetup #3 - LINE Fukuoka会場
 
-ソースコードの公開はもうしばらくお待ち下さい。
+# ＬＴ資料
+福岡県の交通事故を見える化してみた（地図編）.pdf
 
-ちょっと閃いて、変えたいところがあります。
-
-【公開目途】4月21日（日）
+# ファイルの説明と処理の流れ
+DB（データベースフォルダ）交通事故データ
+　　　　↓
+make_near_list.py（処理）50m以内で発生した事故の抽出
+　　　　↓
+near_list_50m.pkl（データ）a:id, b:id, distance:距離
+　　　　↓
+地図に交通事故の発生場所をプロット.ipynb（処理）
+　　　　↓
+plot_map_tooltip10m.html　（出力）危険な交差点
+plot_map_tooltip50m.html　（出力）危険なエリア
+plot_map_MDP.html　（出力）最も危険なポイント
